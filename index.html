@@ -36,13 +36,17 @@
         <script>
             var myVar = "one";
             var myVar2 = "two";
-            console.log(myVar + myVar2);
+
+            if (Date.now() % 2 === 0) {
+            console.log(myVar);
+            } else {
+            console.log(myVar2);
+            }
         </script>
     </head>
     <body>
         <header>
-            <div id="logo"> I will be graduating from Mississippi State University
-     </div>
+            <div id="logo"> I will be graduating from Mississippi State University</div>
             <nav class="footer"> My name is Lizbeth </nav>
         </header>
         <div class="my-font">I should be pink</div>
